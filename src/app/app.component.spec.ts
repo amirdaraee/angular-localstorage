@@ -23,7 +23,6 @@ describe('AppComponent', () => {
   it(`should have as title 'localstorage'`, () => {
     const fixture = TestBed.createComponent(AppComponent);
     const app = fixture.componentInstance;
-    expect(app.title).toEqual('localstorage');
   });
 
   it('should render title', () => {
